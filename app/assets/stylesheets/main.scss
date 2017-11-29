@@ -1,0 +1,180 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/******************************************** Banner / Carousel Section **************************************************/
+
+.banner-section{
+	width: 100%;
+	height: 300px;
+	background-color: #00695C;
+}
+
+
+.banner-text-wrap{
+	height: auto;
+	position: absolute;
+  top: 111px;
+ 
+}
+
+
+.banner-header{
+	margin-top: 0px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.banner-text-slogan{
+	font-style: italic;
+	color: #006064;
+	font-size: 20px;
+}
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 50vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 50vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: white;
+    border-color: white;
+    opacity: .5;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: white;
+    border-color: white;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 50vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(https://static.pexels.com/photos/315788/pexels-photo-315788.jpeg); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(https://static.pexels.com/photos/301632/pexels-photo-301632.jpeg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://static.pexels.com/photos/325521/pexels-photo-325521.jpeg);
+}
+
+/*-------------------How to put ruby urls in background images---------------------------------------------------
+
+<%= image_tag "http://www.example.com/library/example.jpeg" %>
+
+That'll work, since it's really just gonna convert to this:
+
+<img src="http://www.example.com/library/example.jpeg">
+
+So you could use either, they're the same thing.
+------------------------------------------------------------------------------------------------------------------*/
+
+/*************************************** List Section ******************************************************************/
+
+.list-section{
+	height: auto;
+	width: 100%;
+	background-color: white;
+}
+
+.list-block{
+	height: 275px;
+	border: solid grey	5px;
+	margin-top: 20px;
+}
+
+.list-block-header{
+	text-align: center;
+	color: black;
+}
+
+.list-block-text{
+	text-align: center;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
