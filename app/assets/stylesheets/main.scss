@@ -14,7 +14,7 @@
 .banner-text-wrap{
 	height: auto;
 	position: absolute;
-  top: 111px;
+  top: 185px;
  
 }
 
@@ -27,8 +27,9 @@
 
 .banner-text-slogan{
 	font-style: italic;
-	color: #006064;
+	color: gold;
 	font-size: 20px;
+	font-weight: 200;
 }
 /*
 Fade content bs-carousel with hero headers
@@ -121,13 +122,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(https://static.pexels.com/photos/315788/pexels-photo-315788.jpeg); 
+  background-image: url(https://static.pexels.com/photos/704555/pexels-photo-704555.jpeg); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(https://static.pexels.com/photos/301632/pexels-photo-301632.jpeg);
+  background-image: url(https://static.pexels.com/photos/64057/pexels-photo-64057.jpeg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://static.pexels.com/photos/325521/pexels-photo-325521.jpeg);
+  background-image: url(https://static.pexels.com/photos/220237/pexels-photo-220237.jpeg);
 }
 
 /*-------------------How to put ruby urls in background images---------------------------------------------------
@@ -151,8 +152,9 @@ So you could use either, they're the same thing.
 
 .list-block{
 	height: 275px;
-	border: solid grey	5px;
+	border: solid turquoise	2px;
 	margin-top: 20px;
+	background-color: slategray;
 }
 
 .list-block-header{
