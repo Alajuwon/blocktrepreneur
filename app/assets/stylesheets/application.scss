@@ -21,13 +21,17 @@
 
 
 body {
-  background-color: #263238;
+  background-color: #e9eef0;
 
 }
 
 @media (max-width: 979px) {
   body {
     padding-top: 0px;
+    background-color: black;
+  }
+  #nav{
+  	background-color: black;
   }
 }
 
@@ -38,7 +42,7 @@ body {
 }
 
 #nav{
-	 background-color: #263238;
+	 background-color: #e9eef0;
 	 border: none;
 	 margin-bottom: 0px;
 }
@@ -66,9 +70,10 @@ body {
 	color: #009688;
 }
 
-.duration{
-	text-align: center;
-	color: darkred;
+#due-date{
+	color: mediumspringgreen;
+	font-size: 28px;
+	margin-left: 50px;
 }
 /***************************************************** Nav-Section-Ends **************************************************/
 
