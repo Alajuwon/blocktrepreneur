@@ -21,19 +21,18 @@
 
 
 body {
-  background-color: #e9eef0;
+  background-color: lightgrey;
 
 }
 
 @media (max-width: 979px) {
   body {
     padding-top: 0px;
-    background-color: black;
+    background-color: teal;
   }
-  #nav{
-  	background-color: black;
-  }
+
 }
+
 
 /***************************************************** Nav-Section **************************************************/
 
@@ -41,10 +40,21 @@ body {
 	background-color: #212121;
 }
 
+
+
 #nav{
-	 background-color: #e9eef0;
+	 background-color: lightgrey;
 	 border: none;
 	 margin-bottom: 0px;
+}
+
+
+@media (max-width: 979px){
+#nav{
+	 background-color: black;
+	 border: none;
+	 margin-bottom: 0px;
+	}
 }
 
 
@@ -71,9 +81,16 @@ body {
 }
 
 #due-date{
-	color: mediumspringgreen;
+	color: teal;
 	font-size: 28px;
 	margin-left: 50px;
+}
+
+
+@media (max-width: 979px) {
+	#due-date{
+		color: white
+	}
 }
 /***************************************************** Nav-Section-Ends **************************************************/
 
