@@ -28,7 +28,7 @@ body {
 @media (max-width: 979px) {
   body {
     padding-top: 0px;
-    background-color: teal;
+    background-color: white;
   }
 
 }
@@ -83,7 +83,7 @@ body {
 #due-date{
 	color: yellow;
 	font-size: 35px;
-	margin-left: 170px;
+	margin-left: 200px;
 }
 
 
@@ -94,6 +94,16 @@ body {
 		margin-left: -21px;
 	}
 }
+
+@media (max-width: 979px) {
+#app-container{
+	padding: 0px;
+
+
+	}
+}
+
+
 /***************************************************** Nav-Section-Ends **************************************************/
 
 
