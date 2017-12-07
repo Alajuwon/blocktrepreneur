@@ -81,15 +81,17 @@ body {
 }
 
 #due-date{
-	color: teal;
-	font-size: 28px;
-	margin-left: 50px;
+	color: yellow;
+	font-size: 35px;
+	margin-left: 170px;
 }
 
 
 @media (max-width: 979px) {
 	#due-date{
-		color: white
+		color: white;
+		font-size: 16px;
+		margin-left: -21px;
 	}
 }
 /***************************************************** Nav-Section-Ends **************************************************/
