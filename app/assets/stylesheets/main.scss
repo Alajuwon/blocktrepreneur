@@ -157,17 +157,22 @@ So you could use either, they're the same thing.
 .list-block{
 	height: 275px;
 	border: solid turquoise	2px;
-	background-color: slategray;
+	background-color: white;
 }
 
 .list-block-header{
-	text-align: center;
+	font-size: 31px;
 	color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 300
 }
 
 .list-block-text{
-	text-align: center;
+	margin-top: 20px;
+  margin-left: 20px;
 	color: black;
+  font-size: 18px;
 }
 
 
