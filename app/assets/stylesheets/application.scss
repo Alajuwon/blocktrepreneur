@@ -36,6 +36,12 @@ body {
 
 /***************************************************** Nav-Section **************************************************/
 
+.logo-pic{
+	height: 25px;
+}
+
+
+
 #navbarCollapse{
 	background-color: #212121;
 }
@@ -81,9 +87,10 @@ body {
 }
 
 #due-date{
-	color: yellow;
-	font-size: 35px;
-	margin-left: 200px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	background-color: teal;
 }
 
 
@@ -96,9 +103,8 @@ body {
 }
 
 @media (max-width: 979px) {
-#app-container{
+#app-container, .container{
 	padding: 0px;
-
 
 	}
 }
