@@ -72,6 +72,59 @@ strong{
 	text-align: center;
   color: white;
   font-style: oblique;
+  margin-bottom: 50px;
 }
+
+.underline{
+		width: 70%;
+    border: solid 1px white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#second-about-block{
+	text-align: center;
+}
+
+@media (max-width: 979px) {
+	#second-about-block{
+		padding: 0px;
+	}
+}
+
+
+.co-duos{
+	width: 25%;
+  border-radius: 40px;
+}
+
+.team-name-header{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.co-duo-description{
+		color: white;
+    padding: 20px;
+    text-align: left;
+    text-indent: 35px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 979px) {
+	.co-duo-description{
+		padding: 25px;
+		line-height: normal;
+		text-indent: 0px;
+		font-size: 20px;
+	}
+}
+
+
+
+
 
 
