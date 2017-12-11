@@ -29,3 +29,49 @@
 	color: white;
 
 }
+
+
+
+.about-section{
+	height: auto;
+	background-color: #00695C;
+}
+
+strong{
+	font-size: 40px;
+}
+
+.about-us-description{
+	color: white;	
+	letter-spacing: 1px;
+	text-indent: 30px;
+	line-height: 30px;
+	padding: 40px;
+	font-size: 20px;
+}
+
+
+
+@media (max-width: 979px) {
+	#first-about-block{
+		padding: 0px;
+	}
+}
+
+
+@media (max-width: 979px) {
+	.about-us-description{
+		padding: 25px;
+		line-height: normal;
+		text-indent: 0px;
+		font-size: 20px;
+	}
+}
+
+.sign-on{
+	text-align: center;
+  color: white;
+  font-style: oblique;
+}
+
+
