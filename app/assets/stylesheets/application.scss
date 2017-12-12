@@ -29,6 +29,7 @@ body {
   body {
     padding-top: 0px;
     background-color: white;
+    
   }
 
 }
@@ -98,12 +99,13 @@ body {
 	#due-date{
 		color: white;
 		font-size: 16px;
-		margin-left: -21px;
+		
 	}
 }
 
 @media (max-width: 979px) {
 #app-container, .container{
+
 	padding: 0px;
 
 	}
