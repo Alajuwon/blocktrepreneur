@@ -116,13 +116,24 @@ body {
 /***************************************************** Footer Section **************************************************/
 
 footer{
-	height: 100px;
+	height: 60px;
 	background-color: #212121; 
 }
+
+@media (max-width: 979px) {
+	footer{
+		height: 125px;
+	}
+}
+
+
+
 
 .copy-inc{
 	text-align: center;
 	color: white;
+	margin-top: 20px;
+	font-size: 13px;
 }
 
 

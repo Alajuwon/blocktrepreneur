@@ -67,8 +67,8 @@ Image credits: unsplash.com
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 2;
-    background-color: #080d15;
+    z-index: 1;
+    background-color: #00695C;
     opacity: .3; 
 }
 
@@ -336,7 +336,7 @@ So you could use either, they're the same thing.
 }
 
 .bg-image-2{
-  background-image: url(https://static.pexels.com/photos/265036/pexels-photo-265036.jpeg);
+  background-image: url(https://static.pexels.com/photos/7374/startup-photos.jpg);
 }
 
 .bg-image-3{

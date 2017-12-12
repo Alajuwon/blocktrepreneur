@@ -15,7 +15,7 @@
 .about-banner-header{
 	color: white;
 	letter-spacing: 8px;
-	font-weight: 300;
+	
 	font-size: 35px;
 }
 
@@ -32,7 +32,7 @@
 
 
 
-.about-section{
+.about-section-1{
 	height: auto;
 	background-color: #00695C;
 }
@@ -46,8 +46,10 @@ strong{
 	letter-spacing: 1px;
 	text-indent: 30px;
 	line-height: 30px;
-	padding: 40px;
 	font-size: 20px;
+	padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
 }
 
 
@@ -85,6 +87,7 @@ strong{
 
 #second-about-block{
 	text-align: center;
+	
 }
 
 @media (max-width: 979px) {
@@ -107,11 +110,13 @@ strong{
 
 .co-duo-description{
 		color: white;
-    padding: 20px;
     text-align: left;
     text-indent: 35px;
     font-size: 20px;
     font-weight: 400;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 @media (max-width: 979px) {
@@ -120,6 +125,7 @@ strong{
 		line-height: normal;
 		text-indent: 0px;
 		font-size: 20px;
+		text-indent: 30px;
 	}
 }
 
