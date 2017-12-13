@@ -104,8 +104,9 @@ body {
 }
 
 @media (max-width: 979px) {
-	#app-container, .container{
-	
+	#app-container-footer,#app-container{
+		padding-left: 0px;
+		padding-right: 0px;
 
 	}
 }
