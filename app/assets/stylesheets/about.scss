@@ -1,15 +1,41 @@
 
 
 .banner-bg-image{
-	height: 275px;
+	height: 460px;
 	background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.banner-bg-image{
-  background-image: url(https://static.pexels.com/photos/8892/pexels-photo.jpg);
+
+@media (max-width: 979px) {
+	.banner-bg-image{
+		height: 300px;
+	}
 }
+
+
+
+
+.banner-bg-image{
+  background-image: url(https://static.pexels.com/photos/70361/california-parachutists-skydivers-flares-70361.jpeg);
+}
+
+
+.banner-text-wrap {
+    height: auto;
+    position: absolute;
+    top: 295px !important;
+  }
+
+@media (max-width: 979px) {
+	.banner-text-wrap {
+		top: 200px !important;
+	}
+}
+
+
+
 
 
 .about-banner-header{
@@ -48,7 +74,7 @@ strong{
 	font-size: 20px;
 	padding-left: 50px;
   padding-right: 50px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 
@@ -86,6 +112,7 @@ strong{
 
 #second-about-block{
 	text-align: center;
+	margin-bottom: 130px;
 
 }
 
@@ -128,7 +155,17 @@ strong{
 	}
 }
 
-
+.arrow{
+	width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  color: white;
+}
 
 
 
