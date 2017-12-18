@@ -41,7 +41,7 @@ gem 'gravatarify', '~> 3.0.0'
 gem 'kaminari' #(scrolling pages)
 
 gem 'bootstrap-sass'
-gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'bootstrap'
 gem 'hirb' 
 gem 'capybara', '~> 2.15', '>= 2.15.4'
 gem 'geocoder'   #for coordinates(automatic look-up)
