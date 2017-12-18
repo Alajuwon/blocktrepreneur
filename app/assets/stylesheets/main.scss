@@ -96,9 +96,24 @@ Image credits: unsplash.com
               transform: translate3d(-50%,-50%,0);
 }
 
+@media (max-width: 979px) {
+  .hero {
+    width: 80%;
+  }
+}
+
+
+
 .big-name{
   font-size: 55px;
 }
+
+@media (max-width: 979px) {
+  .big-name{
+    font-size: 28px;
+  }
+}
+
 
 hgroup{
   color: #00695C;
