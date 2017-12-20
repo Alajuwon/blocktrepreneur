@@ -163,7 +163,7 @@ hgroup{
   background-image: url(https://static.pexels.com/photos/7097/people-coffee-tea-meeting.jpg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(https://static.pexels.com/photos/154147/pexels-photo-154147.jpeg);
+  background-image: url(image-path('carousel-2.jpg'));
 }
 
 /*-------------------How to put ruby urls in background images---------------------------------------------------
@@ -365,23 +365,23 @@ So you could use either, they're the same thing.
 }
 
 .bg-image-2{
-  background-image: url(https://static.pexels.com/photos/7374/startup-photos.jpg);
+  background-image: url(image-path('second-block-photo.jpg'));
 }
 
 .bg-image-3{
-  background-image: url(https://static.pexels.com/photos/213117/pexels-photo-213117.jpeg);
+  background-image: url(image-path('third-block-photo.jpg'));
 }
 
 .bg-image-4{
-  background-image: url(https://static.pexels.com/photos/42273/doctor-medical-medicine-health-42273.jpeg);
+  background-image: url(image-path('fourth-block-photo.jpg'));
 }
 
 .bg-image-5{
-  background-image: url(https://static.pexels.com/photos/66134/pexels-photo-66134.jpeg);
+  background-image: url(image-path('fifth-block-photo.jpg'));
 }
 
 .bg-image-6{
-  background-image: url(https://static.pexels.com/photos/443383/pexels-photo-443383.jpeg);
+  background-image: url(image-path('sixth-block-photo.jpg'));
 }
 
 .bg-image-7{
@@ -389,7 +389,7 @@ So you could use either, they're the same thing.
 }
 
 .bg-image-8{
-  background-image: url(https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg);
+  background-image: url(image-path('eighth-block-photo.jpg'));
 }
 
 
