@@ -359,8 +359,9 @@ So you could use either, they're the same thing.
 }
 
 
+
 .bg-image-1{
-  background-image: url(https://static.pexels.com/photos/186461/pexels-photo-186461.jpeg);
+  background-image: url(image-path('first-block-photo.jpg'));
 }
 
 .bg-image-2{
